@@ -1,13 +1,18 @@
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({
-    connectionLimit: 10,
-    password: '',
-    user: 'root',
+    // connectionLimit: 10,
+    password: 'nt8ewv6hxK',
+    user: 'admin_pos',
     database: 'admin_pos',
-    host: 'localhost',
-    port: '3306'
+    host: 'urfu1.paulislava.space',
+    // port: '3306'
 });
+
+//         host: 'urfu1.paulislava.space',
+//         user: 'admin_pos',
+//         database: 'admin_pos',
+//         password: 'nt8ewv6hxK'
 
 let chirprdb = {};
 
